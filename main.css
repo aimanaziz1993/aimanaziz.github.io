@@ -1,0 +1,57 @@
+* {
+    font-family: 'montserrat', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .countdown-col {
+    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-coming-soon-page-with-awesome-newsletter-html-css-and-js/bg.png) no-repeat center;
+    background-size: cover;
+  }
+  
+  .time {
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 47.8%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .time span {
+    padding: 0 14px;
+    font-size: 10px;
+  }
+  
+  .time span div {
+    font-size: 40px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .col {
+      flex: 100%;
+    }
+  }
